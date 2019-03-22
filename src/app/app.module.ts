@@ -7,8 +7,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { SupernaturalPageModule } from '../pages/supernatural/supernatural.module';
-import { HimymPageModule } from '../pages/himym/himym.module';
 import { PllPageModule } from '../pages/pll/pll.module';
+import { GotPageModule } from '../pages/got/got.module';
 
 @NgModule({
   declarations: [
@@ -19,8 +19,8 @@ import { PllPageModule } from '../pages/pll/pll.module';
     BrowserModule,    
     IonicModule.forRoot(MyApp),
     SupernaturalPageModule,
-    HimymPageModule,
-    PllPageModule
+    PllPageModule,
+    GotPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

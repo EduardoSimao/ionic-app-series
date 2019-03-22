@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { SupernaturalPage } from '../supernatural/supernatural';
 import { PllPage } from '../pll/pll';
-import { HimymPage } from '../himym/himym';
+import { GotPage } from '../got/got';
 
 @Component({
   selector: 'page-home',
@@ -21,8 +21,8 @@ export class HomePage {
   pllClick(){
     this.navCtrl.push(PllPage)
   }
-  himymClick(){
-    this.navCtrl.push(HimymPage)
+  gotClick(){
+    this.navCtrl.push(GotPage)
   }
 
 }

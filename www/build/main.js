@@ -21,7 +21,7 @@ webpackEmptyAsyncContext.id = 108;
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"../pages/himym/himym.module": [
+	"../pages/got/got.module": [
 		150
 	],
 	"../pages/pll/pll.module": [
@@ -52,10 +52,10 @@ module.exports = webpackAsyncContext;
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HimymPageModule", function() { return HimymPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GotPageModule", function() { return GotPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__himym__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__got__ = __webpack_require__(151);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -65,23 +65,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var HimymPageModule = /** @class */ (function () {
-    function HimymPageModule() {
+var GotPageModule = /** @class */ (function () {
+    function GotPageModule() {
     }
-    HimymPageModule = __decorate([
+    GotPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__himym__["a" /* HimymPage */],
+                __WEBPACK_IMPORTED_MODULE_2__got__["a" /* GotPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__himym__["a" /* HimymPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__got__["a" /* GotPage */]),
             ],
         })
-    ], HimymPageModule);
-    return HimymPageModule;
+    ], GotPageModule);
+    return GotPageModule;
 }());
 
-//# sourceMappingURL=himym.module.js.map
+//# sourceMappingURL=got.module.js.map
 
 /***/ }),
 
@@ -89,7 +89,7 @@ var HimymPageModule = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HimymPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GotPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -104,29 +104,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the HimymPage page.
+ * Generated class for the GotPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var HimymPage = /** @class */ (function () {
-    function HimymPage(navCtrl, navParams) {
+var GotPage = /** @class */ (function () {
+    function GotPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    HimymPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad HimymPage');
+    GotPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad GotPage');
     };
-    HimymPage = __decorate([
+    GotPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-himym',template:/*ion-inline-start:"/home/renan/Vídeos/aula1/src/pages/himym/himym.html"*/'<!--\n  Generated template for the HimymPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>himym</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/home/renan/Vídeos/aula1/src/pages/himym/himym.html"*/,
+            selector: 'page-got',template:/*ion-inline-start:"/home/renan/Vídeos/aula1/src/pages/got/got.html"*/'<!--\n  Generated template for the GotPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>got</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/got/got-logo.jpg">\n      </ion-avatar>\n      <h2>Game of Thrones</h2>\n      <p>7ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/got/got-7.jpg">\n\n    <ion-card-content>\n      <p>Jon Snow (Kit Harington) se recusa a baixar a cabeça para Daenerys (Emilia Clarke), mas decide renunciar ao seu Rei no Norte, se ela o ajudar a combater a ameaça que vem daquela região. Enquanto isso, os dois se reúnem juntamente com Cersei (Lena Headey), Tyrion (Peter Dinklage), Jorah (Iain Glen), Varys (Conleth Hill), Missandei (Nathalie Emmanuel), Qyburn (Anton Lesser), Euron Greyjoy (Pilou Asbæk), Sandor (Rory McCann) e Montanha no Poço do Dragão, onde está uma criatura que pode unir os Sete Reinos contra o Rei da Noite (Vladimir Furdik).</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>45746 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>745465 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          1a ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/got/got-logo.jpg">\n      </ion-avatar>\n      <h2>Game of Thrones</h2>\n      <p>6ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/got/got-6.jpg">\n\n    <ion-card-content>\n      <p>Após ser capturada, Daenerys Targaryen (Daenerys Targaryen) é levada para Vaes Dothrak. Bran Stark (Isaac Hempstead Wright) continua treinando com o Corvo de Três Olhos. Enquanto isso, a herança de Ramsay Bolton (Iwan Rheon) é ameaçada em Winterfell e o destino de Jon Snow (Kit Harington), revelado. </p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>546465 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>456454 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          2a ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/got/got-logo.jpg">\n      </ion-avatar>\n      <h2>Game of Thrones</h2>\n      <p>5ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/got/got-5.jpg">\n\n    <ion-card-content>\n      <p>Daenerys Targaryen (Emilia Clarke) torna-se cada vez mais poderosa e não passa despercebida por ninguém em Westeros. Enquanto isso, Jon Snow (Kit Harington) enfrenta grandes mudanças e Arya Stark (Maisie Williams) continua com sua busca por vingança. </p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>746413 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>4568434 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          3a ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/got/got-logo.jpg">\n      </ion-avatar>\n      <h2>Game of Thrones</h2>\n      <p>4ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/got/got-4.jpg">\n\n    <ion-card-content>\n      <p>Joffrey (Jack Gleeson) se prepara para casar com Margaery (Natalie Dormer). Jon Snow (Kit Harington) tenta alertar a Patrulha da Noite sobre a invasão iminente de um enorme exército selvagem. Bran (Isaac Hempstead-Wright) segue suas visões do Corvo de Três Olhos. Do outro lado do Mar Estreito, Daenerys (Emilia Clarke) decide libertar populações escravizadas, enquanto se esforça para controlar seus dragões em crescimento.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>7468431 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>357464 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          4a ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/got/got-logo.jpg">\n      </ion-avatar>\n      <h2>Game of Thrones</h2>\n      <p>3ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/got/got-3.jpg">\n\n    <ion-card-content>\n      <p>Com a morte de Renly Baratheon, as alianças na guerra são alteradas. Joffrey Baratheon garante uma aliança com a Casa Tyrell e agora comanda os maiores exércitos do reino. Bran Stark e seus protetores devem cruzar o Norte para alcançar a Muralha, enquanto Arya enfrenta as Terras Fluviais em busca de sua mãe e irmão. Tyrion Lannister e Sansa Stark  enfrentam um perigoso tribunal para poder sobreviver. No continente oriental, os dragões de Daenerys Targaryen estão crescendo e sua fama, se espalhando. Mas, para conquistar o Trono de Ferro, ela ainda precisa de apoiadores. Enquanto a Patrulha da Noite é ameaçada pelos Caminhantes Brancos, Jon Snow se infiltra no exército selvagem de Mance Rayder  e descobre os planos do Rei-Além-do-Muro.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>456456 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>4564646 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          5a ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/got/got-logo.jpg">\n      </ion-avatar>\n      <h2>Game of Thrones</h2>\n      <p>2ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/got/got-2.jpg">\n\n    <ion-card-content>\n      <p> Os Sete Reinos estão em guerra pelo Trono de Ferro, em posse de Joffrey Baratheon, que tem o apoio da poderosa Casa Lannister. Enquanto Robb Stark  luta para conquistar a independência de seu povo e dos habitantes das Terras Fluviais e Renly  reivindica o trono com o apoio da Casa Tyrell, Tyrion Lannister chega a King\'s Landing para enfrentar a irmã, Cersei, atual rainha regente. No norte distante, a Patrulha da Noite monta uma expedição além da Muralha para investigar se havia selvagens nas montanhas. Já ao leste, Daenerys Targaryen  e seu pequeno grupo de seguidores precisam encontrar um caminho através de uma terra proibida e recrutar novos aliados para apoiar sua reivindicação ao Trono de Ferro.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>4467844 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>764546 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          6a ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/got/got-logo.jpg">\n      </ion-avatar>\n      <h2>Game of Thrones</h2>\n      <p>1ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/got/got-1.jpg">\n\n    <ion-card-content>\n      <p>\n        Quando o incorruptível Ned Stark é convocado pelo seu grande amigo, o rei Robert Baratheon, para servir como Mão do Rei após a morte de Jon Arryn, ele precisa deixar o castelo da família, em Winterfell, e partir para a capital dos Sete Reinos, Porto Real. Ele leva suas duas filhas consigo, Arya e Sansa, prometida em casamento ao príncipe Joffrey. Quando assume o posto, Eddard começa a investigar segredos que prometem preocupar a rainha, Cersei Lannister. Do outro lado do mar, a jovem Daenerys Targaryen é vendida em casamento a Khal Drogo  pelo seu próprio irmão, Viserys. Os dois são os últimos sobreviventes da família que governou Westeros por 300 anos, e o único desejo do mais velho é ter um exército para voltar para casa e retomar o Trono de Ferro.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>75676786 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>7867645 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          7a ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"/home/renan/Vídeos/aula1/src/pages/got/got.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
-    ], HimymPage);
-    return HimymPage;
+    ], GotPage);
+    return GotPage;
 }());
 
-//# sourceMappingURL=himym.js.map
+//# sourceMappingURL=got.js.map
 
 /***/ }),
 
@@ -305,7 +305,7 @@ var SupernaturalPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__supernatural_supernatural__ = __webpack_require__(155);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pll_pll__ = __webpack_require__(153);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__himym_himym__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__got_got__ = __webpack_require__(151);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -330,12 +330,12 @@ var HomePage = /** @class */ (function () {
     HomePage.prototype.pllClick = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__pll_pll__["a" /* PllPage */]);
     };
-    HomePage.prototype.himymClick = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__himym_himym__["a" /* HimymPage */]);
+    HomePage.prototype.gotClick = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__got_got__["a" /* GotPage */]);
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/home/renan/Vídeos/aula1/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Home\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-card>\n      <ion-item>\n        <ion-avatar item-start>\n          <img src="../../assets/imgs/spn/spn.png">\n        </ion-avatar>\n        <h2>Supernatural</h2>\n      </ion-item>\n    \n      <img src="../../assets/imgs/spn/supernatural.jpg">\n    \n      <ion-card-content>\n        <p>Os irmãos Sam e Dean Winchester encaram cenários sinistros caçando monstros. Velhos truques, armas e esconderijos não funcionam mais e seus amigos os traem, forçando os irmãos a contar um com o outro enquanto enfrentam novos inimigos.</p>\n      </ion-card-content>\n    \n      <ion-row>\n        <ion-col>\n          <button ion-button icon-start (click)="supernaturalClick()" clear small>\n            <div>Ver todas as temporadas</div>\n          </button>\n        </ion-col>\n      </ion-row>\n    \n    </ion-card>\n\n         \n    <ion-card>\n      \n        <ion-item>\n          <ion-avatar item-start>\n            <img src="../../assets/imgs/pll/pll-logo.jpg">\n          </ion-avatar>\n          <h2>Pretty Little Liars</h2>\n        </ion-item>\n      \n        <img src="../../assets/imgs/pll/pll.jpg">\n      \n        <ion-card-content>\n          <p>Já se passaram três anos desde o desaparecimento de Alison. Spencer, Aria, Hanna e Emily, agora no ensino médio, têm um novo desafio: desvendar mensagens anônimas ameaçando contar seus segredos.</p>\n        </ion-card-content>\n      \n        <ion-row>\n          <ion-col>\n            <button ion-button color="primary" (click)="pllClick()"  clear small icon-start>\n              <div>Ver todas as temporadas</div>\n            </button>\n          </ion-col>\n        </ion-row>\n      \n      </ion-card>\n      \n      \n      <ion-card>\n      \n        <ion-item>\n          <ion-avatar item-start>\n            <img src="../../assets/imgs/himym/himym-logo.png">\n          </ion-avatar>\n          <h2>How I Met Your Mother</h2>\n        </ion-item>\n      \n        <img src="../../assets/imgs/himym/himym.jpeg">\n      \n        <ion-card-content>\n          <p>No ano de 2030, Ted Mosby, um arquiteto, decide explicar a seus filhos a história de como ele conheceu a mãe deles. Tudo começou em 2005, quando um de seus amigos decidiu se casar e Ted precisou correr atrás de um amor.</p>\n        </ion-card-content>\n      \n        <ion-row>\n          <ion-col>\n            <button ion-button color="primary" (click)="himymClick()" clear small icon-start>\n              <div>Ver todas as temporadas</div>\n             </button>\n          </ion-col>\n        </ion-row>\n      \n      </ion-card>\n\n</ion-content>'/*ion-inline-end:"/home/renan/Vídeos/aula1/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/home/renan/Vídeos/aula1/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Home\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/spn/spn.png">\n      </ion-avatar>\n      <h2>Supernatural</h2>\n    </ion-item>\n\n    <img src="../../assets/imgs/spn/supernatural.jpg">\n\n    <ion-card-content>\n      <p>Os irmãos Sam e Dean Winchester encaram cenários sinistros caçando monstros. Velhos truques, armas e\n        esconderijos não funcionam mais e seus amigos os traem, forçando os irmãos a contar um com o outro enquanto\n        enfrentam novos inimigos.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start (click)="supernaturalClick()" clear small>\n          <div>Ver todas as temporadas</div>\n        </button>\n      </ion-col>\n    </ion-row>\n\n  </ion-card>\n\n\n  <ion-card>\n\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/pll/pll-logo.jpg">\n      </ion-avatar>\n      <h2>Pretty Little Liars</h2>\n    </ion-item>\n\n    <img src="../../assets/imgs/pll/pll.jpg">\n\n    <ion-card-content>\n      <p>Já se passaram três anos desde o desaparecimento de Alison. Spencer, Aria, Hanna e Emily, agora no ensino\n        médio, têm um novo desafio: desvendar mensagens anônimas ameaçando contar seus segredos.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button color="primary" (click)="pllClick()" clear small icon-start>\n          <div>Ver todas as temporadas</div>\n        </button>\n      </ion-col>\n    </ion-row>\n\n  </ion-card>\n\n\n  <ion-card>\n\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/got/got-logo.jpg">\n      </ion-avatar>\n      <h2>Game of Thrones</h2>\n    </ion-item>\n\n    <img src="../../assets/imgs/got/got.jpg">\n\n    <ion-card-content>\n      <p>Sucesso entre os livros mais vendidos, a série de obras "A Song of Ice and Fire", de George R.R. Martin, é levada à tela quando HBO decide navegar a fundo pelo gênero e recriar a fantasia medieval épica. Este é o retrato de duas famílias poderosas - reis e rainhas, cavaleiros e renegados, homens honestos e mentirosos - disputando um jogo mortal pelo controle dos Sete Reinos de Westeros para assumir o Trono de Ferro. A série foi filmada em Malta e no norte da Irlanda, tendo participação do escritor dos livros.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button color="primary" (click)="gotClick()" clear small icon-start>\n          <div>Ver todas as temporadas</div>\n        </button>\n      </ion-col>\n    </ion-row>\n\n  </ion-card>\n\n</ion-content>'/*ion-inline-end:"/home/renan/Vídeos/aula1/src/pages/home/home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], HomePage);
@@ -373,8 +373,8 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(273);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(199);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_supernatural_supernatural_module__ = __webpack_require__(154);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_himym_himym_module__ = __webpack_require__(150);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_pll_pll_module__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_pll_pll_module__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_got_got_module__ = __webpack_require__(150);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -404,14 +404,14 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */], {}, {
                     links: [
-                        { loadChildren: '../pages/himym/himym.module#HimymPageModule', name: 'HimymPage', segment: 'himym', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/got/got.module#GotPageModule', name: 'GotPage', segment: 'got', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/pll/pll.module#PllPageModule', name: 'PllPage', segment: 'pll', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/supernatural/supernatural.module#SupernaturalPageModule', name: 'SupernaturalPage', segment: 'supernatural', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_7__pages_supernatural_supernatural_module__["SupernaturalPageModule"],
-                __WEBPACK_IMPORTED_MODULE_8__pages_himym_himym_module__["HimymPageModule"],
-                __WEBPACK_IMPORTED_MODULE_9__pages_pll_pll_module__["PllPageModule"]
+                __WEBPACK_IMPORTED_MODULE_8__pages_pll_pll_module__["PllPageModule"],
+                __WEBPACK_IMPORTED_MODULE_9__pages_got_got_module__["GotPageModule"]
             ],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
             entryComponents: [
